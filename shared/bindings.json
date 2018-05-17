@@ -1249,7 +1249,7 @@
         },
         {
             "type": "documentDB",
-            "displayName": "$documentDB_displayName",
+            "displayName": "$documentDBOut_displayName",
             "direction": "out",
             "enabledInTryMode": false,
             "documentation": "$content=Documentation\\documentDBOut.md",
@@ -1291,6 +1291,13 @@
                     "required": true,
                     "label": "$documentDBOut_createIfNotExists_label",
                     "help": "$documentDBOut_createIfNotExists_help"
+                },
+                {
+                    "name": "partitionKey",
+                    "value": "string",
+                    "required": true,
+                    "label": "$documentDBOut_partitionKey_label",
+                    "help": "$documentDBOut_partitionKey_help"
                 },
                 {
                     "name": "connection",
