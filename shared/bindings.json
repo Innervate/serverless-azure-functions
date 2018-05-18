@@ -1295,7 +1295,7 @@
                 {
                     "name": "partitionKey",
                     "value": "string",
-                    "required": true,
+                    "required": false,
                     "label": "$documentDBOut_partitionKey_label",
                     "help": "$documentDBOut_partitionKey_help"
                 },
