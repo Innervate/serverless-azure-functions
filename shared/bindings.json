@@ -1351,16 +1351,23 @@
                     "name": "id",
                     "value": "string",
                     "defaultValue": "{documentId}",
-                    "required": true,
+                    "required": false,
                     "label": "$documentDBIn_id_label",
                     "help": "$documentDBIn_id_help"
                 },
                 {
                     "name": "partitionKey",
                     "value": "string",
-                    "required": true,
+                    "required": false,
                     "label": "$documentDBIn_partitionKey_label",
                     "help": "$documentDBIn_partitionKey_help"
+                },
+                {
+                    "name": "sqlQuery",
+                    "value": "string",
+                    "required": false,
+                    "label": "$documentDBIn_sqlQuery_label",
+                    "help": "$documentDBIn_sqlQuery_help"
                 },
                 {
                     "name": "connection",
